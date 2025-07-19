@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.1.9" hassounds="0" start="node1" apprev="20995">
+  <panorama id="node1">
+    <input levelingroll="0" levelingpitch="0" height="1440" levelbias="0.400" levelbiashidpi="1.000" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="100"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1" fov="140"/>
+    </view>
+    <userdata info="" copyright="" nodeid="node1" description="" tags="benditaburguer" latitude="24.021799" customnodeid="" comment="" title="DCIM\100GOPRO\GS__0013.JPG" author="" datetime="16/07/2025 05:32 p. m." source="" heading="0" longitude="-104.688782" altitude="1887.15"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label backgroundalpha="1" background="1" borderalpha="1" textalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" borderradius="1"/>
+      <polystyle mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <polyhotspot title="" description="" id="Poly01" target="" url="{node2}">
+        <polystring>-163.72/8.26|-163.6/-13.65|-193.94/-13.59|-193.62/9.27|-193.62/9.27</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition zoomfov="40" delay="none" blendcolor="0x000000" zoomafteroutfov="40" softedge="0" type="crossdissolve" zoomspeed="2" zoomout="0" zoomafterinfov="140" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" hideabout="0" lockedmouse="0" invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" invertcontrol="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingroll="0" levelingpitch="0" height="1440" levelbias="0.400" levelbiashidpi="1.000" width="1440" leveltilesize="510" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" tilt="0" pan="0" fov="100"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1" fov="140"/>
+    </view>
+    <userdata info="" copyright="" nodeid="node2" description="" tags="benditaburguer" latitude="24.021893" customnodeid="" comment="" title="DCIM\100GOPRO\GS__0014.JPG" author="" datetime="16/07/2025 05:37 p. m." source="" heading="0" longitude="-104.688769" altitude="1887.14"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label backgroundalpha="1" background="1" borderalpha="1" textalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" borderradius="1"/>
+      <polystyle mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <polyhotspot title="" description="" id="Poly01" target="" url="{node1}">
+        <polystring>-159.53/18.21|-159.72/-12.82|-199.26/-12.59|-198.69/18.98</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition zoomfov="40" delay="none" blendcolor="0x000000" zoomafteroutfov="40" softedge="0" type="crossdissolve" zoomspeed="2" zoomout="0" zoomafterinfov="140" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextvr="1" hideabout="0" lockedmouse="0" invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" invertcontrol="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata title="" author="" copyright="" description="" tags="" comment=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
